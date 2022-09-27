@@ -1,7 +1,8 @@
 body,
 .top,
 .middle,
-.lower{
+.lower,
+.bottom{
     display: flex;
     flex-direction: column;
     font-family:Arial, Helvetica, sans-serif
@@ -11,7 +12,8 @@ body{
     margin:0px;
 }
 
-.top{
+.top,
+.bottom{
 background-color: #36454F;
 }
 
@@ -39,7 +41,8 @@ background-color: #36454F;
     background-color: #e3dac9;
 }
 
-.first-container{
+.first-container,
+.bottom-container{
     padding-bottom: 100px;
     width:470px;
 }
@@ -113,12 +116,13 @@ background-color: #36454F;
 }
 
 .column-one,
-.column-two{
+.column-two,
+.lower-image img{
     text-align: center;
     font-size: 18px;
     color: black;
     width: 325px;
-    height: 300px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
