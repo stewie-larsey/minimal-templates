@@ -1,5 +1,8 @@
 body,
-.top{
+.top,
+.middle,
+.lower,
+.bottom{
     display: flex;
     flex-direction: column;
     font-family:Arial, Helvetica, sans-serif
@@ -9,16 +12,87 @@ body{
     margin:0px;
 }
 
-.top{
+.top,
+.bottom{
 background-color: #36454F;
+}
+
+.first-container,
+.bottom-container{
+    padding-bottom: 100px;
+    width:470px;
+}
+
+.first{
+    gap:100px;
+    align-items: center;
 }
 
 .top{
     align-items: center;
 }
 
-.tool-bar{
+.first-header
+{
+    font-size: 60px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.first-header-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.tool-bar,
+.first{
     display: flex;
+}
+
+.middle-header{
+    text-align: center;
+    font-size:48px;
+    font-weight: 900;
+}
+
+.image-subtext p{
+    width:180px;
+    text-align: center;   
+}
+
+.images-middle
+{
+    margin-left: auto;
+    margin-right: auto;
+    gap:20px;
+}
+
+.image-subtext img{
+    height:350px;
+    width:200px;
+}
+
+.lower-title{
+    text-align: center;
+    font-size:72px;
+    font-weight: 900;
+}
+
+.row{
+    display: flex;
+}
+
+.column-one,
+.column-two,
+.column-three,
+.lower-image img{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    width: 325px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Style The Dropdown Button */
